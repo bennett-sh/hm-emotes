@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"id": "BSh.Emotes",
 	"name": "Emote Menu",
 	"description": "Adds an emote menu when aiming without a gun",
@@ -54,5 +54,6 @@
 		"003A6DDE99AD8D43": "UI_CLAP",
 		"00353B0BC4781667": "UI_SCARED",
 		"008C43B77603A076": "UI_SICK"
-	}
+	},
+	"updateCheck": "https://github.com/bennett-sh/hm-emotes/releases/latest/download/updates.json"
 }
