@@ -143,5 +143,5 @@ jobs:
                   tag_name: ${{ steps.newVersion.outputs.new-release-version }}
                   repository: ${{ github.repository }}
                   files: |
-                      mod.framework.zip
+                      emotes.framework.zip
                       updates.json
