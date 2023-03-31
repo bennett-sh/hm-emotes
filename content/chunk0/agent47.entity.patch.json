@@ -30,18 +30,6 @@
 		},
 		{
 			"AddEntity": [
-				"feeda30ad61ea16d",
-				{
-					"parent": "feed7c5117b13003",
-					"name": "Set game time multiplier",
-					"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entityblueprint",
-					"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "feed70ffc65b5f7a" } }
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"feed0a83b55511d7",
 				{
 					"parent": "feed7c5117b13003",
@@ -85,41 +73,12 @@
 					"properties": { "m_bValue": { "type": "bool", "value": false } },
 					"events": {
 						"OnTrue": {
-							"SetValue": [{ "ref": "feeda30ad61ea16d", "value": { "type": "float32", "value": 0.001 } }],
 							"TransmitTrue": ["feed0a83b55511d7"]
 						},
 						"OnFalse": {
-							"SetValue": [{ "ref": "feeda30ad61ea16d", "value": { "type": "float32", "value": 1 } }],
 							"TransmitFalse": ["feed0a83b55511d7"]
 						}
 					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed70ffc65b5f7a",
-				{
-					"parent": "feeda30ad61ea16d",
-					"name": "Game time multiplier entity property",
-					"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_rEntity": { "type": "SEntityTemplateReference", "value": "feed77fc1aae5108" },
-						"m_sPropertyName": { "type": "ZString", "value": "m_fGameTimeMultiplier" }
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"feed77fc1aae5108",
-				{
-					"parent": "feeda30ad61ea16d",
-					"name": "Game time multiplier",
-					"factory": "[modules:/zgametimemultiplierentity.class].pc_entitytype",
-					"blueprint": "[modules:/zgametimemultiplierentity.class].pc_entityblueprint",
-					"properties": { "m_fGameTimeMultiplier": { "type": "float32", "value": 1 } }
 				}
 			]
 		},

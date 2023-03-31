@@ -55,5 +55,13 @@
 		"00353B0BC4781667": "UI_SCARED",
 		"008C43B77603A076": "UI_SICK"
 	},
+	"options": [
+		{
+			"name": "Reality Control Compatibility",
+			"type": "conditional",
+			"condition": "\"Atampy26.RealityControl\" not in config.loadOrder",
+			"contentFolders": ["ui"]
+		}
+	],
 	"updateCheck": "https://github.com/bennett-sh/hm-emotes/releases/latest/download/updates.json"
 }
