@@ -41,7 +41,9 @@
 			"UI_SCARED": "Scared",
 			"UI_SICK": "Throw Up",
 			"UI_PHONE_CALL": "Call",
-			"UI_PHONE_TEXT": "Text"
+			"UI_PHONE_TEXT": "Text",
+			"UI_PREVIOUS_PAGE": "Previous page",
+			"UI_NEXT_PAGE": "Next page"
 		},
 		"french": {},
 		"italian": {},
@@ -51,7 +53,9 @@
 			"UI_SCARED": "Beängstigt",
 			"UI_SICK": "Übergeben",
 			"UI_PHONE_CALL": "Anrufen",
-			"UI_PHONE_TEXT": "Nachricht schreiben"
+			"UI_PHONE_TEXT": "Nachricht schreiben",
+			"UI_PREVIOUS_PAGE": "Vorherige Seite",
+			"UI_NEXT_PAGE": "Nächste Seite"
 		},
 		"spanish": {},
 		"russian": {},
@@ -65,7 +69,9 @@
 		"00353B0BC4781667": "UI_SCARED",
 		"008C43B77603A076": "UI_SICK",
 		"00F574EE4B9D5C99": "UI_PHONE_CALL",
-		"008DD39E8A29158D": "UI_PHONE_TEXT"
+		"008DD39E8A29158D": "UI_PHONE_TEXT",
+		"00EB3F7C3083DAB3": "UI_PREVIOUS_PAGE",
+		"0076FCBF597055D6": "UI_NEXT_PAGE"
 	},
 	"options": [
 		{
