@@ -29,7 +29,10 @@
 		"003A7DA0F300DDF4",
 		"0051FEF024DF1721",
 		"00DDAD7132CA336D",
-		"00FAA7E180306393"
+		"00FAA7E180306393",
+		"0049F4114D911847",
+		"00E4546F3605FAF8",
+		"0095EDD9CFEBFD8C"
 	],
 	"localisation": {
 		"english": {
@@ -37,7 +40,8 @@
 			"UI_ARMS_BACK": "Arms behind back",
 			"UI_SCARED": "Scared",
 			"UI_SICK": "Throw Up",
-			"UI_PHONE": "Call"
+			"UI_PHONE_CALL": "Call",
+			"UI_PHONE_TEXT": "Text"
 		},
 		"french": {},
 		"italian": {},
@@ -46,7 +50,8 @@
 			"UI_ARMS_BACK": "Arme hinter den Rücken",
 			"UI_SCARED": "Beängstigt",
 			"UI_SICK": "Übergeben",
-			"UI_PHONE": "Anrufen"
+			"UI_PHONE_CALL": "Anrufen",
+			"UI_PHONE_TEXT": "Nachricht schreiben"
 		},
 		"spanish": {},
 		"russian": {},
@@ -59,7 +64,8 @@
 		"003A6DDE99AD8D43": "UI_CLAP",
 		"00353B0BC4781667": "UI_SCARED",
 		"008C43B77603A076": "UI_SICK",
-		"00310FFDB156BF5D": "UI_PHONE"
+		"00F574EE4B9D5C99 ": "UI_PHONE_CALL",
+		"008DD39E8A29158D ": "UI_PHONE_TEXT"
 	},
 	"options": [
 		{

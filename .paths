@@ -2,4 +2,5 @@
 [assembly:/bsh/emotes/text/throwup]
 [assembly:/bsh/emotes/text/scared]
 [assembly:/bsh/emotes/text/armsback]
-[assembly:/bsh/emotes/text/phone]
+[assembly:/bsh/emotes/text/phone?call]
+[assembly:/bsh/emotes/text/phone?text]
