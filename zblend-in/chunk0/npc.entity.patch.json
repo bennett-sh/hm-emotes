@@ -1,0 +1,95 @@
+{
+	"tempHash": "00DDCC74AD917CAA",
+	"tbluHash": "003321F66074B4AB",
+	"patch": [
+		{
+			"AddEntity": [
+				"feeda60a2670f2b7",
+				{
+					"parent": "594561be5ddfb63",
+					"name": "Emote Menu",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed29e72fd2c99b",
+				{
+					"parent": "feeda60a2670f2b7",
+					"name": "Receive Hide",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rChannelToken": { "type": "SEntityTemplateReference", "value": "feedec6d0d800477" } },
+					"events": {
+						"OnTrue": { "SetTrue": ["feed68b858a20494"] },
+						"OnFalse": { "SetFalse": ["feed68b858a20494"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed68b858a20494",
+				{
+					"parent": "feeda60a2670f2b7",
+					"name": "Hide",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": { "m_bValue": { "type": "bool", "value": false } },
+          "events": {
+            "OnTrue": {
+              "Set": ["feedc290f08be456"]
+            },
+            "OnFalse": {
+              "Clear": ["feedc290f08be456"]
+            }
+          }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedec6d0d800477",
+				{
+					"parent": "feed29e72fd2c99b",
+					"name": "TokenID",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": { "m_sName": { "type": "ZString", "value": "EventToken_Emotes_Hide" } }
+				}
+			]
+		},
+    {
+      "AddEntity": [
+        "feedc290f08be456",
+        {
+          "parent": "feeda60a2670f2b7",
+          "name": "AI Modifier",
+          "factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+          "blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+            "properties": {
+                "m_bIgnoreAnnoyingHitman": {
+                  "type": "bool",
+                  "value": true
+                },
+                "m_bIgnoreSillyHitman": {
+                  "type": "bool",
+                  "value": true
+                },
+                "m_bIgnoreTrespassing": {
+                  "type": "bool",
+                  "value": true
+                },
+                "m_pActor": {
+                  "type": "SEntityTemplateReference",
+                  "value": "594561be5ddfb63"
+                }
+            }
+        }
+      ]
+    }
+	],
+	"patchVersion": 6
+}

@@ -7,33 +7,6 @@
 	"contentFolders": ["content"],
 	"authors": ["BSh"],
 	"frameworkVersion": "2.15.1",
-	"dependencies": [
-		"0051FEF024DF1721",
-		"00FAA7E180306393",
-		"00DDAD7132CA336D",
-		"00278EED02DCFFE1",
-		"00D2F77D59B1E80A",
-		"00D2F77D59B1E80A",
-		"00EBDC4903B348F4",
-		"00A3FF27DC4E7772",
-		"00BBF5C85802CF46",
-		"005577C57F51B876",
-		"003E89BBF08F55C8",
-		"004BB804683F9311",
-		"0065C2B4E302F035",
-		"0030FB2D0E9A48FB",
-		"0048A7622FE76169",
-		"004E8F0D889AC11C",
-		"00DFE6F696D67486",
-		"0077CDC751929427",
-		"003A7DA0F300DDF4",
-		"0051FEF024DF1721",
-		"00DDAD7132CA336D",
-		"00FAA7E180306393",
-		"0049F4114D911847",
-		"00E4546F3605FAF8",
-		"0095EDD9CFEBFD8C"
-	],
 	"localisation": {
 		"english": {
 			"UI_CLAP": "Clap",
@@ -79,6 +52,16 @@
 			"type": "conditional",
 			"condition": "\"Atampy26.RealityControl\" not in config.loadOrder",
 			"contentFolders": ["ui"]
+		},
+		{
+			"name": "Blend in",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"tooltip": "Makes 47 blend in while playing an animation",
+			"contentFolders": ["zblend-in"],
+			"dependencies": [
+				"0094CA751051B7BD"
+			]
 		}
 	],
 	"updateCheck": "https://github.com/bennett-sh/hm-emotes/releases/latest/download/updates.json"
