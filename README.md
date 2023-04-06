@@ -4,18 +4,18 @@
 
 ## Current Emotes
 
-- Clap
-- Arms behind back
-- Throw up
-- Be scared
-- Call
-- Text
+-   Clap
+-   Arms behind back
+-   Throw up
+-   Be scared
+-   Call
+-   Text
 
 ## Known issues (can't be fixed afaik)
 
-- After every animation 47 resets for one frame (only with the latest game version)
-- Clapping has no end transition
-- Being scared has no start & no end transition
+-   After every animation 47 resets for one frame (only with the latest game version)
+-   Clapping has no end transition
+-   Being scared has no start & no end transition
 
 <br/>
 

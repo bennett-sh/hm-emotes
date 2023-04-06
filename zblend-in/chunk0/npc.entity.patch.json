@@ -38,14 +38,14 @@
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 					"properties": { "m_bValue": { "type": "bool", "value": false } },
-          "events": {
-            "OnTrue": {
-              "Set": ["feedc290f08be456"]
-            },
-            "OnFalse": {
-              "Clear": ["feedc290f08be456"]
-            }
-          }
+					"events": {
+						"OnTrue": {
+							"Set": ["feedc290f08be456"]
+						},
+						"OnFalse": {
+							"Clear": ["feedc290f08be456"]
+						}
+					}
 				}
 			]
 		},
@@ -61,35 +61,35 @@
 				}
 			]
 		},
-    {
-      "AddEntity": [
-        "feedc290f08be456",
-        {
-          "parent": "feeda60a2670f2b7",
-          "name": "AI Modifier",
-          "factory": "[modules:/zaimodifieractor.class].pc_entitytype",
-          "blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
-            "properties": {
-                "m_bIgnoreAnnoyingHitman": {
-                  "type": "bool",
-                  "value": true
-                },
-                "m_bIgnoreSillyHitman": {
-                  "type": "bool",
-                  "value": true
-                },
-                "m_bIgnoreTrespassing": {
-                  "type": "bool",
-                  "value": true
-                },
-                "m_pActor": {
-                  "type": "SEntityTemplateReference",
-                  "value": "594561be5ddfb63"
-                }
-            }
-        }
-      ]
-    }
+		{
+			"AddEntity": [
+				"feedc290f08be456",
+				{
+					"parent": "feeda60a2670f2b7",
+					"name": "AI Modifier",
+					"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+					"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+					"properties": {
+						"m_bIgnoreAnnoyingHitman": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIgnoreSillyHitman": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIgnoreTrespassing": {
+							"type": "bool",
+							"value": true
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "594561be5ddfb63"
+						}
+					}
+				}
+			]
+		}
 	],
 	"patchVersion": 6
 }

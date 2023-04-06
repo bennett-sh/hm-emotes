@@ -2739,7 +2739,7 @@
 					"events": {
 						"OnTrue": { "TransmitTrue": ["feedf43159922cf4"] },
 						"OnFalse": { "TransmitFalse": ["feedf43159922cf4"] }
-          }
+					}
 				}
 			]
 		},
@@ -2780,30 +2780,30 @@
 				}
 			]
 		},
-    {
-      "AddEntity": [
-        "feedf43159922cf4",
-        {
-          "parent": "feed56566ee39dd7",
-          "name": "Transmit hide",
-          "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entityblueprint",
-          "properties": { "m_rChannelToken": { "type": "SEntityTemplateReference", "value": "feed338147349f79" } }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed338147349f79",
-        {
-          "parent": "feedf43159922cf4",
-          "name": "TokenID",
-          "factory": "[modules:/ztokenidentity.class].pc_entitytype",
-          "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
-          "properties": { "m_sName": { "type": "ZString", "value": "EventToken_Emotes_Hide" } }
-        }
-      ]
-    }
+		{
+			"AddEntity": [
+				"feedf43159922cf4",
+				{
+					"parent": "feed56566ee39dd7",
+					"name": "Transmit hide",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rChannelToken": { "type": "SEntityTemplateReference", "value": "feed338147349f79" } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed338147349f79",
+				{
+					"parent": "feedf43159922cf4",
+					"name": "TokenID",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": { "m_sName": { "type": "ZString", "value": "EventToken_Emotes_Hide" } }
+				}
+			]
+		}
 	],
 	"patchVersion": 6
 }

@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.5.1",
+	"version": "0.6.0",
 	"id": "BSh.Emotes",
 	"name": "Emote Menu",
 	"description": "Adds an emote menu when aiming without a gun",
@@ -59,9 +59,7 @@
 			"enabledByDefault": true,
 			"tooltip": "Makes 47 blend in while playing an animation",
 			"contentFolders": ["zblend-in"],
-			"dependencies": [
-				"0094CA751051B7BD"
-			]
+			"dependencies": ["0094CA751051B7BD"]
 		}
 	],
 	"updateCheck": "https://github.com/bennett-sh/hm-emotes/releases/latest/download/updates.json"
