@@ -13,8 +13,10 @@
 			"UI_ARMS_BACK": "Arms behind back",
 			"UI_SCARED": "Scared",
 			"UI_SICK": "Throw Up",
+			"UI_PRAY": "Pray",
 			"UI_PHONE_CALL": "Call",
 			"UI_PHONE_TEXT": "Text",
+			"UI_SMOKE": "Smoke",
 			"UI_PREVIOUS_PAGE": "Previous page",
 			"UI_NEXT_PAGE": "Next page"
 		},
@@ -25,6 +27,8 @@
 			"UI_ARMS_BACK": "Arme hinter den Rücken",
 			"UI_SCARED": "Beängstigt",
 			"UI_SICK": "Übergeben",
+			"UI_PRAY": "Beten",
+			"UI_SMOKE": "Rauchen",
 			"UI_PHONE_CALL": "Anrufen",
 			"UI_PHONE_TEXT": "Nachricht schreiben",
 			"UI_PREVIOUS_PAGE": "Vorherige Seite",
@@ -44,7 +48,9 @@
 		"00F574EE4B9D5C99": "UI_PHONE_CALL",
 		"008DD39E8A29158D": "UI_PHONE_TEXT",
 		"00EB3F7C3083DAB3": "UI_PREVIOUS_PAGE",
-		"0076FCBF597055D6": "UI_NEXT_PAGE"
+		"0076FCBF597055D6": "UI_NEXT_PAGE",
+		"00FCACBA9804053E": "UI_PRAY",
+		"00D129ED4A3E8942": "UI_SMOKE"
 	},
 	"options": [
 		{
@@ -58,8 +64,7 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"tooltip": "Makes 47 blend in while playing an animation",
-			"contentFolders": ["zblend-in"],
-			"dependencies": ["0094CA751051B7BD"]
+			"contentFolders": ["zblend-in"]
 		}
 	],
 	"updateCheck": "https://github.com/bennett-sh/hm-emotes/releases/latest/download/updates.json"
