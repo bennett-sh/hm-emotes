@@ -52,6 +52,11 @@
 		"00FCACBA9804053E": "UI_PRAY",
 		"00D129ED4A3E8942": "UI_SMOKE"
 	},
+	"dependencies": [
+		"0022D9DB3ED9DE7F",
+		"00FE465A9CBDAD59",
+		"0028F13DD5B089E2"
+	],
 	"options": [
 		{
 			"name": "Reality Control Compatibility",
