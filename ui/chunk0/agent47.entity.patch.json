@@ -7,12 +7,17 @@
 				"feed4c93718344c6",
 				{
 					"parent": "feed7c5117b13003",
-					"name": "Aim sound controller",
-					"factory": "[modules:/zlookataimsoundcontroller.class].pc_entitytype",
-					"blueprint": "[modules:/zlookataimsoundcontroller.class].pc_entityblueprint",
+					"name": "Event channel receiver",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rChannelToken": { "type": "SEntityTemplateReference", "value": "feede349e559c278" } },
 					"events": {
-						"EnterLookAt": { "SetTrue": ["feed077f1bcb290c"] },
-						"ExitLookAt": { "SetFalse": ["feed077f1bcb290c"] }
+						"OnTrue": {
+							"SetTrue": ["feed077f1bcb290c"]
+						},
+						"OnFalse": {
+							"SetFalse": ["feed077f1bcb290c"]
+						}
 					}
 				}
 			]
